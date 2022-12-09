@@ -1,0 +1,28 @@
+info host ------------ starting ------------
+info host client connected: extension { address: '::', family: 'IPv6', port: 34113 }
+info host starting host: {"extensionFolder":"/home/scrubz/.vscode/extensions/wallabyjs.console-ninja-0.0.19","runtimeHookFile":"/home/scrubz/.vscode/extensions/wallabyjs.console-ninja-0.0.19/out/runtimeHook/tracer.js","globalErrorHandlerFile":"/home/scrubz/.vscode/extensions/wallabyjs.console-ninja-0.0.19/out/runtimeHook/errorHandler.js","filesToInstrument":["/home/scrubz/code/github/misc/consoleninjarepro/src/app.tsx","/home/scrubz/code/github/misc/consoleninjarepro/src/index.tsx"],"debug":false,"config":{"dateTimeFormat":"hh:mm:ss.SSS","openLinksInEditor":true,"maxLogViewerEntries":15000,"autoClearLogViewerOnFileChanges":true,"outputMode":"Beside File","toolsToAutoPatch":["vite","jest","webpack","next.js","cypress","http-server","serve"]}}
+info host starting tools discovery and integration
+info host looking for tools to patch
+info host worker Starting Host Worker...
+info host found 1 tool file(s) to patch
+info host patching /home/scrubz/code/github/misc/consoleninjarepro/node_modules/vite/bin/vite.js
+info host completed tools discovery and integration
+info buildHook-884955 installing build hook for vite at /home/scrubz/code/github/misc/consoleninjarepro
+info buildHook-884955 allowed tools: vite, jest, webpack, next.js, cypress, http-server, serve
+info buildHook-884955 running tools: vite
+info buildHook-884955 installing fs interceptor
+info host client connected: buildHook { address: '::', family: 'IPv6', port: 34113 }
+info buildHook-884955 allowed tools: vite, jest, webpack, next.js, cypress, http-server, serve
+info buildHook-884955 running tools: vite
+info buildHook-884955 file processed (stat): 0 log points, error handler: true
+info buildHook-884955 file processed (stat): 1 log points, error handler: false
+info buildHook-884955 file processed (stat): 0 log points, error handler: false
+info host client connected: runtimeHook { address: '::', family: 'IPv6', port: 34113 }
+info host client disconnected: runtimeHook 1001
+info host client disconnected: runtimeHook
+info host client connected: runtimeHook { address: '::', family: 'IPv6', port: 34113 }
+info host client disconnected: runtimeHook 1001
+info host client disconnected: runtimeHook
+info host client disconnected: buildHook 1006
+info host client disconnected: buildHook 1006, has clients false
+WARN host unable to revert access and modified time for file /home/scrubz/code/github/misc/consoleninjarepro/src/app.tsx
